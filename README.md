@@ -6,4 +6,4 @@ This repository contains codes for my quant research on utilizing different deep
 + `model.py`: Different deep learning models written in Pytorch
 + `utils.py`: Auxiliary functions such as dataset processing and performance evaluation
 + `config.py`: configurations for models and training process
-+ `BN_LSTM.py`: It is a rather independent file which displays how I build LSTM from scratch so that I can apply the Batch normalization method for LSTM discribed in this paper: [Recurrent Batch Normalization](https://arxiv.org/pdf/1603.09025.pdf). I also include drawing functions that can depict the learnable parameters' gradient changes and value changes in the learning process so that problems like gradient vanishing can be detected.
++ `BN_LSTM.py`: It is a rather independent file which displays how I build LSTM from scratch so that I can apply the Batch normalization method for LSTM discribed in this paper: [Recurrent Batch Normalization](https://arxiv.org/pdf/1603.09025.pdf). I also include drawing functions that can depict the gradient changes and value changes of all time steps in the training process so that problems like gradient vanishing can be detected.
